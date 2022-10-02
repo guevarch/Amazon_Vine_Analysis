@@ -16,3 +16,4 @@
  - ![image](https://user-images.githubusercontent.com/107594143/193458780-af2178d0-2598-4ea4-8380-35d9bcb74dde.png)
 
 ## Summary
+The overview of the analysis is to review the Amazon reviews written by members of the paid Amazon Vine program and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. We then used Pandas to determine if there is any bias toward favorable reviews from Vine members in your dataset. There is a strong bias toward unpaid reviews. The 42% vs .31% strongly favors the unpaid over the paid 5 star reviews. Additional information to support is to gather information for 1, 2, 3, and 4-star reviews and compare the differences between paid and unpaid.
