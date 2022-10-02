@@ -3,8 +3,8 @@
  The overview of the analysis is to review the Amazon reviews written by members of the paid Amazon Vine program and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, you’ll use PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in your dataset.
 ## Results
 ### Deliverable 1 Review
- - There were 9002021 reviews in the data set. After filtering for total votes greater than 20, there were 68164 remaining. There are 585 paid vine and 61139 unpaid vine reviews reviews that have a greater than 50% helpful_votes/total_votes. Among those 585 pain vine reviews, only 213 are five star. And out of the unpaid vine reviews, only 28839 have 5 star.
- - Out of the 68164 reviews, 42.31%' represents the percentage of five star review unpaid review and 0.31% represent the paid reviews.
+ - There were 9002021 reviews in the data set. After filtering for total votes greater than 20, there were 68164 remaining. There are 585 paid vine and 61139 unpaid vine reviews that have a greater than 50% helpful_votes/total_votes. Among those 585 paid vine reviews, only 213 are five star. And out of the 61139 unpaid vine reviews, only 28839 have 5 star.
+ - Out of the 68164 reviews, 42.31% represents the percentage of five star review unpaid review and 0.31% represent the paid reviews.
 ### Images from PgAdmin
  - Customer Table
  - ![image](https://user-images.githubusercontent.com/107594143/193458730-d006f24c-b1bc-48de-9cf6-db2b79817632.png)
