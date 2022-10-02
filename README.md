@@ -1,5 +1,6 @@
 # Amazon_Vine_Analysis
 ## Overview
+ The overview of the analysis is to review the Amazon reviews written by members of the paid Amazon Vine program and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, you’ll use PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in your dataset.
 ## Results
  - Customer Table
  - ![image](https://user-images.githubusercontent.com/107594143/193458730-d006f24c-b1bc-48de-9cf6-db2b79817632.png)
