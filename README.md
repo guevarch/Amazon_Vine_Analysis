@@ -1,6 +1,6 @@
 # Amazon_Vine_Analysis
 ## Overview
- The overview of the analysis is to review the Amazon reviews written by members of the paid Amazon Vine program and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, you’ll use PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in your dataset.
+ The overview of the analysis is to review the Amazon reviews written by members of the paid Amazon Vine program and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. We then used Pandas to determine if there is any bias toward favorable reviews from Vine members in your dataset.
 ## Results
 ### Deliverable 1 Review
  - There were 9002021 reviews in the data set. After filtering for total votes greater than 20, there were 68164 remaining. There are 585 paid vine and 61139 unpaid vine reviews that have a greater than 50% helpful_votes/total_votes. Among those 585 paid vine reviews, only 213 are five star. And out of the 61139 unpaid vine reviews, only 28839 have 5 star.
